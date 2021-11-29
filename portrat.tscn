@@ -25,11 +25,9 @@ __meta__ = {
 }
 
 [node name="Rat" type="Sprite" parent="."]
+position = Vector2( -11, 0 )
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Path" type="Path2D" parent="Rat"]
 curve = SubResource( 1 )

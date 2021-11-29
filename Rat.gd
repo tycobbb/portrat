@@ -8,7 +8,7 @@ var m_path: Path2D
 var m_draw_speed: float
 
 # the draw speed in units / s
-var m_draw_speed_scale: float = 100.0
+var m_draw_speed_scale: float = 1.05
 
 # if the mouse is pressed
 var m_is_pressed: bool
